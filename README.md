@@ -1,16 +1,16 @@
 # Invoice Builder
 
-[![License](https://img.shields.io/github/license/piratuks/invoice-builder)](LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/piratuks/invoice-builder/total)](https://github.com/piratuks/invoice-builder/releases)
-[![Latest Release](https://img.shields.io/github/v/release/piratuks/invoice-builder)](https://github.com/piratuks/invoice-builder/releases)
+[![License](https://img.shields.io/github/license/telos-studios/invoice-builder)](LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/telos-studios/invoice-builder/total)](https://github.com/telos-studios/invoice-builder/releases)
+[![Latest Release](https://img.shields.io/github/v/release/telos-studios/invoice-builder)](https://github.com/telos-studios/invoice-builder/releases)
 ![Windows](https://img.shields.io/badge/Windows-10%2B-blue?logo=windows)
 ![Linux](https://img.shields.io/badge/Linux-DEB-blue?logo=linux)
 ![macOS](https://img.shields.io/badge/macOS-DMG-lightgrey?logo=apple&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat-square&logo=docker&logoColor=white)
-[![GHCR](https://img.shields.io/badge/ghcr.io-invoice--builder-blue?style=flat-square&logo=github)](https://github.com/piratuks/invoice-builder/pkgs/container/invoice-builder)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FF813F?style=flat&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/evaldizi)
-[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/fae95447-d182-4281-a9ab-72f3a728cab8.svg)](https://oosmetrics.com/repo/piratuks/invoice-builder)
-[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/b9423919-f6dd-44ca-a4ae-a9be883d092e.svg)](https://oosmetrics.com/repo/piratuks/invoice-builder)
+[![GHCR](https://img.shields.io/badge/ghcr.io-invoice--builder-blue?style=flat-square&logo=github)](https://github.com/telos-studios/invoice-builder/pkgs/container/invoice-builder)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FF813F?style=flat&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/telosstudios)
+[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/fae95447-d182-4281-a9ab-72f3a728cab8.svg)](https://oosmetrics.com/repo/telos-studios/invoice-builder)
+[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/b9423919-f6dd-44ca-a4ae-a9be883d092e.svg)](https://oosmetrics.com/repo/telos-studios/invoice-builder)
 
 **Offline invoicing with full data ownership.**
 
@@ -151,13 +151,13 @@ This option is ideal if you want:
 A pre-built image is published automatically to GitHub Container Registry on every push to `main` and on every version tag:
 
 ```bash
-ghcr.io/piratuks/invoice-builder:latest
+ghcr.io/telos-studios/invoice-builder:latest
 ```
 
 Pull it at any time with:
 
 ```bash
-docker pull ghcr.io/piratuks/invoice-builder:latest
+docker pull ghcr.io/telos-studios/invoice-builder:latest
 ```
 
 > **ℹ️ `VITE_API_URL` is no longer needed for Docker deployments.**
@@ -224,7 +224,7 @@ docker compose -f docker-compose.standalone.yml up -d
 
 Download the latest release from the **GitHub Releases** page:
 
-➡️ [Download Latest Release](https://github.com/piratuks/invoice-builder/releases)
+➡️ [Download Latest Release](https://github.com/telos-studios/invoice-builder/releases)
 
 No account required.
 
@@ -316,7 +316,7 @@ Clone the repository, install dependencies, and start the development server:
 #### 🖥️ Electron (Desktop App)
 
 ```bash
-git clone https://github.com/piratuks/invoice-builder.git
+git clone https://github.com/telos-studios/invoice-builder.git
 cd invoice-builder
 npm install
 npm run dev
@@ -325,7 +325,7 @@ npm run dev
 #### 🌐 Webserver / Browser
 
 ```bash
-git clone https://github.com/piratuks/invoice-builder.git
+git clone https://github.com/telos-studios/invoice-builder.git
 cd invoice-builder
 npm install
 npm run dev:react
@@ -414,7 +414,7 @@ VITE_API_URL={url} Backend webserver URL when running without Electron (Web/Dock
 Contributions of all kinds are welcome - bug reports, feature ideas, documentation improvements, and pull requests.  
 Please open an issue before starting major work to ensure alignment.
 
-- Report issues or features here: [ISSUES/FEATURES](https://github.com/piratuks/invoice-builder/issues)
+- Report issues or features here: [ISSUES/FEATURES](https://github.com/telos-studios/invoice-builder/issues)
 - Feature requests and discussions are welcome
 - Please follow [guidelines](CONTRIBUTING.md)
 
@@ -453,7 +453,7 @@ See the [LICENSE](LICENSE) file for details.
 
 Invoice Builder is maintained by a single developer. Your support helps keep updates coming and new features rolling out!
 
-Want to be a part of this project’s journey? You can support it here: [Buy Me a Coffee](https://www.buymeacoffee.com/evaldizi)
+Want to be a part of this project’s journey? You can support it here: [Buy Me a Coffee](https://www.buymeacoffee.com/telosstudios)
 
 ### 💖 Supporters
 

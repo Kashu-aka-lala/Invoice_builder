@@ -1,12 +1,12 @@
 appId: com.invoice-builder
-productName: Invoice Builder
+productName: telos studio.
 
 directories:
   output: release
 
 publish:
   provider: github
-  owner: piratuks
+  owner: telos Studios
   repo: invoice-builder
 
 files:
@@ -36,7 +36,7 @@ linux:
   target:
     - deb
   category: Office
-  maintainer: 'Piratuks <evaldiz@gmail.com>'
+  maintainer: 'telos Studios <support@telosstudios.com>'
   icon: 'src/backend/main/assets/linux-icons'
 
 mac:

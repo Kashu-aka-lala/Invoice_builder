@@ -29,6 +29,7 @@ import { MenuList } from '../shared/components/lists/menuList/MenuList';
 import type { MenuItem } from '../shared/types/menuItem';
 import { useAppDispatch, useAppSelector } from '../state/configureStore';
 import { selectSettings, selectVersion, setVersion } from '../state/pageSlice';
+import telosLogo from '../assets/telos_logo.png';
 const DRAWER_WIDTH = 240;
 const COLLAPSED_WIDTH = 60;
 
@@ -298,12 +299,46 @@ export const Sidebar: FC = () => {
 
       <MenuList useTooltip={true} items={menuItems} showText={open} />
 
-      <Box sx={{ p: 2 }}>
-        <Divider />
-        {open && (
-          <Typography variant="body2" color="text.secondary" sx={{ mt: 1, textAlign: 'center', whiteSpace: 'nowrap' }}>
-            {t(`app.version`)}: {version}
-          </Typography>
+      <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 1 }}>
+        <Divider sx={{ width: '100%', mb: 1 }} />
+        {open ? (
+          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 0.5 }}>
+            <Box
+              component="img"
+              src={telosLogo}
+              alt="telos studio logo"
+              sx={{
+                height: 32,
+                objectFit: 'contain',
+                filter: theme.palette.mode === 'dark' ? 'invert(1) brightness(2)' : 'none',
+                opacity: 0.95
+              }}
+            />
+            <Typography variant="caption" color="text.secondary" sx={{ textAlign: 'center', fontWeight: 500 }}>
+              © {new Date().getFullYear()} telos studio.
+            </Typography>
+            <Typography variant="caption" color="text.secondary" sx={{ textAlign: 'center', fontSize: '0.7rem', opacity: 0.8 }}>
+              All Rights Reserved.
+            </Typography>
+            <Typography variant="caption" color="text.secondary" sx={{ mt: 0.5, fontSize: '0.7rem' }}>
+              {t(`app.version`)}: {version}
+            </Typography>
+          </Box>
+        ) : (
+          <Tooltip title={`${t('app.version')}: ${version}`}>
+            <Box
+              component="img"
+              src={telosLogo}
+              alt="telos studio logo"
+              sx={{
+                height: 24,
+                width: 24,
+                objectFit: 'contain',
+                filter: theme.palette.mode === 'dark' ? 'invert(1) brightness(2)' : 'none',
+                opacity: 0.8
+              }}
+            />
+          </Tooltip>
         )}
       </Box>
     </Drawer>

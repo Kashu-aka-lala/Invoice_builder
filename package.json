@@ -4,7 +4,7 @@
   "version": "2.5.1",
   "type": "module",
   "description": "Invoice and quotation builder desktop app with PDF export, designed for small businesses and freelancers. Create, manage, and export invoices and quotes easily using a local database in an Electron-based app.",
-  "author": "piratuks",
+  "author": "telos Studios",
   "keywords": [
     "invoice",
     "quotation",
@@ -29,11 +29,11 @@
     "xrechnung"
   ],
   "bugs": {
-    "url": "https://github.com/piratuks/invoice-builder/issues"
+    "url": "https://github.com/telos-studios/invoice-builder/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/piratuks/invoice-builder.git"
+    "url": "git://github.com/telos-studios/invoice-builder.git"
   },
   "license": "MIT",
   "scripts": {
